@@ -1,6 +1,47 @@
 
-.header{
+#header{
     width: 960px;
     margin: 0 auto;
-    height: 400px;
+    background-color: #ffffff;
 }
+
+h1{
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 30px;
+    width: 150px;
+    float: left;
+    color:#ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+h3{
+    margin: 0 auto;
+    margin-top: 0px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding: 0px 18px;
+    margin: 25px 0px;
+    font-size: 18px;
+}
+
+#top{
+    clear: both;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #cccccc;
+    height: 2px;
+}
+#about, #portfolio{
+    border-right-width: 1px;
+    border-color: #cccccc;
+    
+    border-style: solid;
+    
+}
+
+
