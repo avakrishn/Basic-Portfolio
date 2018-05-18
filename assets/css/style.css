@@ -1,6 +1,15 @@
+body{
+    background-image: url('../images/vintage-leaves/vintage-leaves.png');
+}
+
+#h-background{
+    height: 68px;
+    background-color: #ffffff;
+}
 
 #header{
     width: 960px;
+    height: 68px;
     margin: 0 auto;
     background-color: #ffffff;
 }
@@ -8,7 +17,7 @@
 h1{
     background-color: #4aaaa5;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     width: 150px;
     float: left;
     color:#ffffff;
@@ -25,23 +34,51 @@ h3{
     color: #777777;
     padding: 0px 18px;
     margin: 25px 0px;
-    font-size: 18px;
+    font-size: 17px;
 }
 
-#top{
+hr{
     clear: both;
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+#top{
     background-color: #cccccc;
     height: 2px;
+    margin-bottom: 40px;
 }
 #about, #portfolio{
     border-right-width: 1px;
     border-color: #cccccc;
-    
     border-style: solid;
     
 }
 
+#main-info{
+    margin: 0 auto;
+    width: 900px;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    border-width: 1px;
+    padding: 30px;
+    padding-top: 0px;
+    
+}
+
+#middle{
+    background-color: #dddddd;
+    height:3px;
+    margin-bottom: 25px;
+}
+
+h2{
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    margin: 25px 0px;
+}
 
